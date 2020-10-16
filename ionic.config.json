@@ -1,0 +1,7 @@
+{
+  "name": "mythreeViewApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
