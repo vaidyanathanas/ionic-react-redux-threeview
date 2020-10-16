@@ -46,10 +46,10 @@ const DifferentButtons: React.FC<MyComponentProps> = (props) => {
         <div className="container">
         <IonButton color="warning" shape="round" expand="full" onClick={gotoHome}>Home</IonButton>
         <IonButton color="danger" shape="round" fill="outline" expand="full" onClick={gotoHome}>Home</IonButton>
-        <IonButton color="dark" routerLink="/" expand="full">
+        <IonButton color="dark" onClick={gotoHome} expand="full">
           <IonIcon slot="start" icon={home} />  Home
         </IonButton>
-        <SwipeableButton success={swipeBtn} label="Home" />
+        <SwipeableButton success={swipeBtn} label="Slide here" />
         <IonAlert
           isOpen={showAlert1}
           onDidDismiss={swipeDone}
